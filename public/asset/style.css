@@ -1,0 +1,88 @@
+*{
+    /* border:1px solid black; */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/*-----Navbar Start */
+
+.logo{
+    width: 78px;
+}
+
+#banner{
+    display: flex;
+    background-size: cover;
+    background-image: linear-gradient(rgba(8, 23, 4, 0.797),rgba(0,0,0,0.6)),url(../asset/images/78791.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+}
+.navbar{
+    background-color: rgba(14, 29, 20, 0.461);
+}
+.hero-img{
+    width: 100%;
+    margin-top: 190px;
+}
+/*-----Navbar End */
+/*-----Trending Start */
+#content, #stylefeed{
+    display: flex;
+    background: rgb(5,15,9);
+    background: linear-gradient(90deg, rgba(5,15,9,1) 69%, rgba(6,116,62,1) 100%);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    padding-bottom: 4rem;
+}
+
+.content-block ,.cards{
+    margin-top: 5rem;
+    border:5px solid rgb(15, 202, 24);
+    padding: 2rem; 
+    height: fit-content; 
+}
+.jacket img{
+    margin-top: 3rem;
+    margin-left: 20%;
+    width: 400px;
+    border: 3px solid black;
+    box-shadow: 20px 20px rgb(105, 224, 69);
+
+}
+@media all and (max-width:1368px){
+    .jacket img{
+        padding-top: 4rem;
+        margin-left: 7rem;
+        width: 300px;
+    } 
+}
+.paragraph1{
+    margin-top: 4rem;
+    margin-left: 2rem;
+}
+
+.rickside{
+    display:block;
+    margin-left: 9rem;
+    margin-top: 3rem;
+    background-color: #5a686c;
+    color: white;
+    padding: 2rem;
+}
+
+.card-pic img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+    
+}
+
+.footermain{
+    display: flex;
+    background-color: #26B31A;
+}
